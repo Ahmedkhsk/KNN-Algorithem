@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1751941837 source:e:\internship\team2\task lecture 3\knn\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<cmath>
+	<algorithm>
+	<map>
+
