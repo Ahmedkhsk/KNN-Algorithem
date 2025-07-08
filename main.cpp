@@ -117,5 +117,5 @@ int main()
     string result = predictLabel(trainingData, testPoint, K);
     cout << "Predicted label: " << result << endl;
 
-    return 0;
+    system("pause");
 }
