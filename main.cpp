@@ -94,7 +94,11 @@ string predictLabel(vector<dataPoint> trainingData, vector<double> testPoint, in
 
 int main()
 {
-    vector<dataPoint> trainingData = readCSV("knn_clean_data.csv");
+    string nameFile;
+    cout<<"Enter Name of File: ";
+    cin>>nameFile;
+
+    vector<dataPoint> trainingData = readCSV(nameFile);
 
     int numFeatures = trainingData[0].Features.size();
     cout << "Enter values for a new test point (" << numFeatures << " features):" << endl;

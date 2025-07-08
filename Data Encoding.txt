@@ -1,0 +1,31 @@
+Age => زي ما هو 
+_____________
+
+Income => زي ما هو 
+_____________
+
+Purchases_Count => زي ما هو
+
+_____________
+
+Has_CreditCard => Binary Encoding (0/1)
+
+_____________
+
+Education_Level => Label Encoding 
+
+HighSchool => 0
+BSc => 1
+MSc => 2
+PhD => 3
+_____________
+
+Marital_Status => Label Encoding
+
+Single   => 0 
+Married  => 1 
+Divorced => 2
+
+____________
+
+Class => Target
